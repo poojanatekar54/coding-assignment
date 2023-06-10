@@ -35,7 +35,7 @@ public class Assignment{
         store.addSong("User1", "S1");
         store.addSong("User1", "S2");
         store.addSong("User1", "S3");
-        System.out.println(store.getRecentlyPlayedSongs("User1")); 
+        System.out.println(store.getRecentlyPlayedSongs("User2")); 
 
         store.addSong("User1", "S4");
         System.out.println(store.getRecentlyPlayedSongs("User1"));  
